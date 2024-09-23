@@ -18,7 +18,7 @@
 The basic syntax for using `skeleton-cli-py` is:
 
 ```
-$ ./skeleton-cli-py <command> [options]
+$ ./skeleton-cli-py.py <command> [options]
 ```
 
 Available commands:
@@ -31,34 +31,34 @@ Available commands:
 For more information on each command, use:
 
 ```
-$ ./skeleton-cli-py <command> --help
+$ ./skeleton-cli-py.py <command> --help
 ```
 
 ### Examples
 
 1. Execute Command A:
    ```
-   $ ./skeleton-cli-py command-a --option "example"
+   $ ./skeleton-cli-py.py command-a --option "example"
    ```
 
 2. Execute Command B:
    ```
-   $ ./skeleton-cli-py command-b --flag
+   $ ./skeleton-cli-py.py command-b --flag
    ```
 
 3. Execute Command C (list items):
    ```
-   $ ./skeleton-cli-py command-c --list
+   $ ./skeleton-cli-py.py command-c --list
    ```
 
 4. Execute Command C (add items):
    ```
-   $ ./skeleton-cli-py command-c --add item1 item2 item3
+   $ ./skeleton-cli-py.py command-c --add item1 item2 item3
    ```
 
 5. Execute Command D:
    ```
-   $ ./skeleton-cli-py command-d --name "John Doe"
+   $ ./skeleton-cli-py.py command-d --name "John Doe"
    ```
 
 ## License
